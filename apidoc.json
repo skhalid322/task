@@ -1,0 +1,24 @@
+{
+  "name": "Task Management",
+  "version": "1.0.0",
+  "description": "API documentation for My API",
+  "title": "My API Documentation",
+  "url": "http://localhost:8000",
+  "sampleUrl": false,
+  "header": {
+    "title": "Api documentation for task management",
+    "content": ""
+  },
+  "footer": {
+    "title": "Task Management ",
+    "content": "<h1></h1>"
+  },
+  "template": {
+    "forceLanguage": "en"
+  },
+  "source": {
+    "include": ["./apis/routes"],
+    "exclude": ["./node_modules"]
+  },
+  "dest": "./docs/"
+}
